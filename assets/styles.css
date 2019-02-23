@@ -91,6 +91,10 @@ header h1 {
   background-color: pink;
 }
 
+.hobbys-tab {
+  background-color: orange;
+}
+
 .settings-tab {
   background-color: gray;
 }

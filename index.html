@@ -29,11 +29,24 @@
 
     <section class="tabs">
       <div class="tabs__buttons">
-        <button id="friends-button">Friends</button><button id="settings-button">Settings</button>
+        <button
+          id="friends-button"
+          class="tab-button"
+          data-tab="friends">Friends
+        </button>
+        <button
+          id="settings-button"
+          class="tab-button"
+          data-tab="settings">Settings</button>
+        <button
+          id="hobbys-button"
+          class="tab-button"
+          data-tab="hobbys">Hobbies</button>
       </div>
       <div class="tabs__sections">
-        <section id="friends-tab" class="friends-tab"></section>
-        <section id="settings-tab" class="settings-tab"></section>
+        <section id="friends-tab" class="friends-tab tab-section"></section>
+        <section id="hobbys-tab" class="hobbys-tab tab-section"></section>
+        <section id="settings-tab" class="settings-tab tab-section"></section>
       </div>
     </section>
 
